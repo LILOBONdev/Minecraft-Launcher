@@ -12,4 +12,4 @@ minecraft_launcher_lib
 win10toast
 ```
 
-![Banner](https://imgur.com/a/yywPb20)
+![Banner](https://yapx.ru/album/X9kdn)
