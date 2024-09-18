@@ -12,4 +12,4 @@ minecraft_launcher_lib
 win10toast
 ```
 
-![Banner]([https://yapx.ru/album/X9kdn](https://cdn.discordapp.com/attachments/1271329696377733186/1285962928046080070/chrome_SIjc6gXCjm.png?ex=66ec2dce&is=66eadc4e&hm=a59ba0385f10cf967d9b271dc53237f34fc40ce98bcb7cc7e4d1e4e12152df50&)
+![C.H.BANNER](https://cdn.discordapp.com/attachments/1271329696377733186/1284231370259959929/CheatLangBannerNew.png?ex=66e5e12a&is=66e48faa&hm=84b86f62d4ca54892f4f7d298dfc96f1f34a32bdace9fb76b94f26346571c052&)
