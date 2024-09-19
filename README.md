@@ -15,4 +15,7 @@ eel
 minecraft_launcher_lib
 win10toast
 ```
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
 ![C.H.BANNER](https://cdn.discordapp.com/attachments/1271329696377733186/1285962928046080070/chrome_SIjc6gXCjm.png?ex=66ec2dce&is=66eadc4e&hm=a59ba0385f10cf967d9b271dc53237f34fc40ce98bcb7cc7e4d1e4e12152df50&)
