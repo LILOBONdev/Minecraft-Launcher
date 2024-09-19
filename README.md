@@ -8,7 +8,6 @@
 > Обязательно! Извлеките из папки Minecraft-Main папку: MinecraftLauncherWeb, чтобы все работало. Очень важный пункт! Также добавьте Python в вертуальное окружение своего ПК. "Add Python to PATH"
 
 > Чтобы обновить лаунчер, пропишите команду в редакторе кода (желательно в Visual Studio Code): `gh repo clone LILOBONdev/Minecraft-Launcher` - склонировать данный репозиторий.
-<button>a</button>
 Используемые языки в проекте: Python; Java Script <br>
 Список библиотек которые нужно установить через пакет pip (эти библиотеки используются в проекте):
 ```
@@ -16,5 +15,5 @@ eel
 minecraft_launcher_lib
 win10toast
 ```
-
+<button>A</button>
 ![C.H.BANNER](https://cdn.discordapp.com/attachments/1271329696377733186/1285962928046080070/chrome_SIjc6gXCjm.png?ex=66ec2dce&is=66eadc4e&hm=a59ba0385f10cf967d9b271dc53237f34fc40ce98bcb7cc7e4d1e4e12152df50&)
