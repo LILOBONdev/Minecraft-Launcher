@@ -10,7 +10,9 @@
 > Чтобы обновить лаунчер, пропишите команду в редакторе кода (желательно в Visual Studio Code): `gh repo clone LILOBONdev/Minecraft-Launcher` - склонировать данный репозиторий.
 
 Используемые языки в проекте: Python; Java Script <br>
-<h1>AAAA</h1>
+<script>
+  document.body.style.background-color: #fff
+</script>
 Список библиотек которые нужно установить через пакет pip (эти библиотеки используются в проекте):
 ```
 eel
