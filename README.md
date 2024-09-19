@@ -10,6 +10,7 @@
 > [!WARNING]
 > Обязательно! Извлеките из папки Minecraft-Main папку: MinecraftLauncherWeb, чтобы все работало. Очень важный пункт! Также добавьте Python в вертуальное окружение своего ПК. "Add Python to PATH"
 
+> [!TIP]
 > Чтобы обновить лаунчер, пропишите команду в редакторе кода (желательно в Visual Studio Code): `gh repo clone LILOBONdev/Minecraft-Launcher` - склонировать данный репозиторий.
 
 Список поддерживаемых установщиков Minecraft Launcher:
