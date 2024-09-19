@@ -11,7 +11,7 @@
 
 Используемые языки в проекте: Python; Java Script <br>
 <script>
-  document.body.style.background-color: #fff
+  console.log('A')
 </script>
 Список библиотек которые нужно установить через пакет pip (эти библиотеки используются в проекте):
 ```
