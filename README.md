@@ -20,19 +20,4 @@ eel
 minecraft_launcher_lib
 win10toast
 ```
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
 ![C.H.BANNER](https://cdn.discordapp.com/attachments/1271329696377733186/1285962928046080070/chrome_SIjc6gXCjm.png?ex=66ec2dce&is=66eadc4e&hm=a59ba0385f10cf967d9b271dc53237f34fc40ce98bcb7cc7e4d1e4e12152df50&)
