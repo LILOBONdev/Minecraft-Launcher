@@ -1,4 +1,4 @@
-# Minecraft Launcher (Alpha Test) 📥
+# Minecraft Launcher (Beta Test) 📥
 > [!NOTE]
 > Чтобы начать тестирование лаунчера нужно установить [Python](https://www.python.org/downloads/) а также [Java](https://www.java.com/ru/) и [Java SE Development Kit](https://www.oracle.com/java/technologies/downloads/).
 Объясняю зачем. Python - Компелируемый код проекта-лаунчера, Java - Запуск Minecraft, Java Dev Kit - Пакет для установки версий Minecraft запрашиваемый библиотекой.
