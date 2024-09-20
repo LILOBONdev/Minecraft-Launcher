@@ -15,7 +15,7 @@
 
 Список поддерживаемых установщиков Minecraft Launcher:
 - [x] Classic Minecraft
-- [X] Fabric - Soon
+- [ ] Fabric
 - [ ] Forge <br>
 * Используемые языки в проекте: Python; Java Script <br>
 * Список библиотек которые нужно установить через пакет pip (эти библиотеки используются в проекте):
