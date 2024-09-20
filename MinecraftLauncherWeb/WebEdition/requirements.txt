@@ -1,3 +1,0 @@
-Eel==0.17.0
-minecraft_launcher_lib==6.5
-win10toast==0.9
