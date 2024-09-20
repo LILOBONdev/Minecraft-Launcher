@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="eel.js"></script>
+    <link rel="stylesheet" href="css/RegisterPage/RegisterDesign.css">
+    <link rel="icon" type="image/png" href="Images/LogoMinecraft.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Launcher</title>
+</head>
+<body>
+    <noscript>У вас не включен или не поддерживается Java Script. Попробуйте переустановить Chrome браузер, чтобы все заработало.</noscript>
+    <header>
+        <div id="HeadMenu">
+            <a id="Title">Minecraft Launcher</a>
+        <ul id="TheList">
+            <li><a id="L1" onclick="ThisLauncher()">О лаунчере</a></li>
+            <li><a id="L2" onclick="Versions()">Биржа серверов</a></li>
+            <li><a id="L3" onclick="Main()">На главную</a></li>
+        </ul>
+        </div>
+    </header>
+    <div class="Embed">
+        
+        <img id="MainMage" src="Images/Versions/buzzy.png">
+        <div class="Ground">
+            <input id="Name" placeholder="Введите имя" required> <br> <br>
+            <center><a id="Play" onclick="Register()">Создать</a></center>
+        </div>
+    </div>
+    <script>
+        async function Checker() {
+            let Response = await eel.CheckUser()();
+            if(Response != 'unlog') {
+                window.location.href = 'Profile.html'
+            } else {
+                
+            }
+        }
+
+        async function Register() {
+            let TargetName = document.getElementById('Name').value
+            let Callback = await eel.RegUser(TargetName)()
+            window.location.href = 'Embed.html'
+        }
+
+        function Main() {
+            window.location.href = 'Embed.html'
+        }
+
+        function ThisLauncher() {
+            window.location.href = 'ThisLauncher.html'
+        }
+
+        function Versions() {
+            window.location.href = 'ThisVersions.html'
+        }
+        Checker()
+    </script>
+</body>
+</html>

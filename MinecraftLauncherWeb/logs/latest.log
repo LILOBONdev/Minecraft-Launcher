@@ -1,0 +1,396 @@
+[00:57:28] [main/INFO]: Loading Minecraft 1.19.4 with Fabric Loader 0.16.5
+[00:57:28] [main/WARN]: Warnings were found!
+ - Mod 'Reese's Sodium Options' (reeses-sodium-options) 1.6.3+mc1.19.4-build.90 recommends version 0.4.2 or later of sodium-extra, which is missing!
+	 - You should install version 0.4.2 or later of sodium-extra for the optimal experience.
+[00:57:28] [main/INFO]: Loading 56 mods:
+	- fabric-api 0.78.0+1.19.4
+	   |-- fabric-api-base 0.4.23+9ff28bcef4
+	   |-- fabric-api-lookup-api-v1 1.6.24+49abcf7ef4
+	   |-- fabric-biome-api-v1 13.0.6+348a9c64f4
+	   |-- fabric-block-api-v1 1.0.5+e022e5d1f4
+	   |-- fabric-blockrenderlayer-v1 1.1.33+c2e6f674f4
+	   |-- fabric-client-tags-api-v1 1.0.14+1134c5b8f4
+	   |-- fabric-command-api-v1 1.2.26+f71b366ff4
+	   |-- fabric-command-api-v2 2.2.5+e719b857f4
+	   |-- fabric-commands-v0 0.2.43+df3654b3f4
+	   |-- fabric-containers-v0 0.1.53+df3654b3f4
+	   |-- fabric-content-registries-v0 3.5.8+ae0966baf4
+	   |-- fabric-convention-tags-v1 1.4.0+9a7c5daaf4
+	   |-- fabric-crash-report-info-v1 0.2.14+aeb40ebef4
+	   |-- fabric-data-generation-api-v1 11.3.7+5da15ca1f4
+	   |-- fabric-dimensions-v1 2.1.44+7f87f8faf4
+	   |-- fabric-entity-events-v1 1.5.12+e45f7c65f4
+	   |-- fabric-events-interaction-v0 0.4.42+a1ccd7bff4
+	   |-- fabric-events-lifecycle-v0 0.2.51+df3654b3f4
+	   |-- fabric-game-rule-api-v1 1.0.32+a1ccd7bff4
+	   |-- fabric-item-api-v1 2.1.16+09a3510cf4
+	   |-- fabric-item-group-api-v1 3.0.4+043f9acff4
+	   |-- fabric-key-binding-api-v1 1.0.32+c477957ef4
+	   |-- fabric-keybindings-v0 0.2.30+df3654b3f4
+	   |-- fabric-lifecycle-events-v1 2.2.14+5da15ca1f4
+	   |-- fabric-loot-api-v2 1.1.26+75e98211f4
+	   |-- fabric-loot-tables-v1 1.1.30+9e7660c6f4
+	   |-- fabric-message-api-v1 5.1.0+1ee8be40f4
+	   |-- fabric-mining-level-api-v1 2.1.38+49abcf7ef4
+	   |-- fabric-models-v0 0.3.29+11ba9c3bf4
+	   |-- fabric-networking-api-v1 1.3.0+a6f3ccfaf4
+	   |-- fabric-networking-v0 0.3.40+df3654b3f4
+	   |-- fabric-object-builder-api-v1 7.0.2+63b515f4f4
+	   |-- fabric-particles-v1 1.0.22+f1e4495bf4
+	   |-- fabric-recipe-api-v1 1.0.7+a1ccd7bff4
+	   |-- fabric-registry-sync-v0 2.1.3+a383ab97f4
+	   |-- fabric-renderer-api-v1 2.2.4+81e8c576f4
+	   |-- fabric-renderer-indigo 1.1.0+81e8c576f4
+	   |-- fabric-renderer-registries-v1 3.2.37+df3654b3f4
+	   |-- fabric-rendering-data-attachment-v1 0.3.27+afca2f3ef4
+	   |-- fabric-rendering-fluids-v1 3.0.20+f1e4495bf4
+	   |-- fabric-rendering-v0 1.1.40+df3654b3f4
+	   |-- fabric-rendering-v1 2.1.0+8f878217f4
+	   |-- fabric-resource-conditions-api-v1 2.3.0+e6c7d4eef4
+	   |-- fabric-resource-loader-v0 0.11.1+1e1fb126f4
+	   |-- fabric-screen-api-v1 1.0.44+8c25edb4f4
+	   |-- fabric-screen-handler-api-v1 1.3.19+5da15ca1f4
+	   |-- fabric-sound-api-v1 1.0.8+75e98211f4
+	   |-- fabric-transfer-api-v1 3.1.0+d51205dbf4
+	   \-- fabric-transitive-access-wideners-v1 3.0.2+63b515f4f4
+	- fabricloader 0.16.5
+	   \-- mixinextras 0.4.1
+	- java 22
+	- minecraft 1.19.4
+	- reeses-sodium-options 1.6.3+mc1.19.4-build.90
+	- sodium 0.4.10+build.24
+[00:57:28] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/NLAY/AppData/Roaming/.minecraft/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[00:57:29] [main/INFO]: Compatibility level set to JAVA_16
+[00:57:29] [main/INFO]: Compatibility level set to JAVA_17
+[00:57:29] [main/INFO]: Loaded configuration file for Sodium: 33 options available, 0 override(s) found
+[00:57:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:57:32] [main/WARN]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[00:57:40] [Datafixer Bootstrap/INFO]: 180 Datafixer optimizations took 346 milliseconds
+[00:57:42] [Render thread/INFO]: [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[00:57:42] [Render thread/INFO]: Launching a new process to probe the system configuration!
+[00:57:44] [Render thread/INFO]: OpenGL Vendor: ATI Technologies Inc.
+[00:57:44] [Render thread/INFO]: OpenGL Renderer: AMD Radeon (TM) R9 380 Series
+[00:57:44] [Render thread/INFO]: OpenGL Version: 3.3.14831 Core Profile Forward-Compatible Context 21.5.2 27.20.20903.8001
+[00:57:44] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[00:57:45] [Render thread/ERROR]: Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:161) ~[authlib-3.18.38.jar:?]
+	at net.minecraft.class_310.method_31382(class_310.java:732) ~[client-intermediary.jar:?]
+	at net.minecraft.class_310.<init>(class_310.java:440) ~[client-intermediary.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:198) ~[fabric-loader-0.16.5-1.19.4.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.5.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.5.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-3.18.38.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-3.18.38.jar:?]
+	... 8 more
+[00:57:45] [Render thread/INFO]: Setting user: Lilobonchick1
+[00:57:46] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[00:57:46] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[00:57:48] [Render thread/WARN]: Static binding violation: PRIVATE @Overwrite method method_23182 in sodium.mixins.json:features.item.MixinItemRenderer from mod sodium cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[00:57:50] [Worker-Main-1/ERROR]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[00:57:50] [Render thread/INFO]: Reloading ResourceManager: vanilla, Fabric Mods (Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Block API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Group API (v1), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Recipe API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Sound API (v1), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Reese's Sodium Options, Sodium)
+[00:57:50] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
+[00:57:50] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
+[00:57:55] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brushing
+[00:57:55] [Render thread/WARN]: Missing sound for event: minecraft:item.brush.brush_sand_completed
+[00:57:55] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[00:57:55] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[00:57:55] [Render thread/WARN]: Missing sound for event: minecraft:music.overworld.cherry_grove
+[00:57:55] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Headphones (High Definition Audio Device)
+[00:57:55] [Render thread/INFO]: Sound engine started
+[00:57:55] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[00:57:55] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[00:57:55] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[00:57:55] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[00:57:55] [Render thread/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[00:57:55] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[00:57:55] [Render thread/INFO]: Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[00:57:55] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[00:57:55] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[00:57:56] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[00:57:56] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[00:57:56] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[00:57:56] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[00:57:56] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
+[01:12:32] [Render thread/INFO]: Connecting to mclucky.net, 25565
+[01:12:32] [Worker-Main-7/ERROR]: Failed to retrieve profile key pair
+java.io.IOException: Could not retrieve profile key pair
+	at net.minecraft.class_7434.method_43605(class_7434.java:139) ~[client-intermediary.jar:?]
+	at net.minecraft.class_7434.method_44291(class_7434.java:79) ~[client-intermediary.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1489) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2071) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2033) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187) ~[?:?]
+[01:12:34] [Render thread/INFO]: Started 1 worker threads
+[01:12:34] [Render thread/INFO]: [System] [CHAT] LuckyWorld ⟹ Введите текст с картинки в чат
+[01:12:34] [Render thread/INFO]: Stopping worker threads
+[01:12:34] [Render thread/INFO]: Started 1 worker threads
+[01:12:47] [Render thread/INFO]: [System] [CHAT] LuckyWorld ⟹ Проверка пройдена, приятной игры!
+[01:12:47] [Render thread/INFO]: Stopping worker threads
+[01:12:47] [Render thread/INFO]: Started 1 worker threads
+[01:12:47] [Render thread/INFO]: Stopping worker threads
+[01:12:47] [Render thread/INFO]: Started 1 worker threads
+[01:12:49] [Render thread/INFO]: Stopping worker threads
+[01:12:49] [Render thread/INFO]: Started 1 worker threads
+[01:12:49] [Render thread/INFO]: Stopping worker threads
+[01:12:49] [Render thread/INFO]: Started 1 worker threads
+[01:12:49] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:aquatic, minecraft:arthropod, minecraft:can_breathe_under_water, minecraft:ignores_poison_and_regen, minecraft:illager, minecraft:illager_friends, minecraft:inverted_healing_and_harm, minecraft:non_controlling_rider, minecraft:not_scary_for_pufferfish, minecraft:redirectable_projectile, minecraft:sensitive_to_bane_of_arthropods, minecraft:sensitive_to_impaling, minecraft:sensitive_to_smite, minecraft:undead, minecraft:wither_friends, minecraft:zombies
+[01:12:49] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:all_hanging_signs, minecraft:armadillo_spawnable_on, minecraft:badlands_terracotta, minecraft:bamboo_blocks, minecraft:camel_sand_step_sound_blocks, minecraft:carpets, minecraft:ceiling_hanging_signs, minecraft:cherry_logs, minecraft:combination_step_sound_blocks, minecraft:concrete_powder, minecraft:dirt_like, minecraft:does_not_block_hoppers, minecraft:enchantment_power_provider, minecraft:enchantment_power_transmitter, minecraft:incorrect_for_diamond_tool, minecraft:incorrect_for_gold_tool, minecraft:incorrect_for_iron_tool, minecraft:incorrect_for_netherite_tool, minecraft:incorrect_for_stone_tool, minecraft:incorrect_for_wooden_tool, minecraft:lava_pool_stone_replaceables, minecraft:maintains_farmland, minecraft:non_flammable_wood, minecraft:polar_bears_spawnable_on_in_frozen_ocean, minecraft:replaceable, minecraft:replaceable_by_trees, minecraft:sniffer_diggable_block, minecraft:sniffer_egg_hatch_boost, minecraft:stone_buttons, minecraft:sword_efficient, minecraft:trail_ruins_replaceable, minecraft:vibration_resonators, minecraft:wall_hanging_signs
+[01:12:49] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:armadillo_food, minecraft:axolotl_food, minecraft:bamboo_blocks, minecraft:bee_food, minecraft:bookshelf_books, minecraft:breaks_decorated_pots, minecraft:camel_food, minecraft:carpets, minecraft:cat_food, minecraft:cherry_logs, minecraft:chest_armor, minecraft:chicken_food, minecraft:cow_food, minecraft:decorated_pot_ingredients, minecraft:decorated_pot_sherds, minecraft:dyeable, minecraft:enchantable/armor, minecraft:enchantable/bow, minecraft:enchantable/chest_armor, minecraft:enchantable/crossbow, minecraft:enchantable/durability, minecraft:enchantable/equippable, minecraft:enchantable/fire_aspect, minecraft:enchantable/fishing, minecraft:enchantable/foot_armor, minecraft:enchantable/head_armor, minecraft:enchantable/leg_armor, minecraft:enchantable/mining, minecraft:enchantable/mining_loot, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/trident, minecraft:enchantable/vanishing, minecraft:enchantable/weapon, minecraft:foot_armor, minecraft:frog_food, minecraft:furnace_materials, minecraft:goat_food, minecraft:hanging_signs, minecraft:head_armor, minecraft:hoglin_food, minecraft:horse_food, minecraft:horse_tempt_items, minecraft:leg_armor, minecraft:llama_food, minecraft:llama_tempt_items, minecraft:meat, minecraft:noteblock_top_instruments, minecraft:occludes_vibration_signals, minecraft:ocelot_food, minecraft:overworld_natural_logs, minecraft:panda_food, minecraft:parrot_food, minecraft:parrot_poisonous_food, minecraft:pig_food, minecraft:rabbit_food, minecraft:sheep_food, minecraft:skulls, minecraft:sniffer_food, minecraft:stone_buttons, minecraft:strider_food, minecraft:strider_tempt_items, minecraft:trim_materials, minecraft:trim_templates, minecraft:trimmable_armor, minecraft:turtle_food, minecraft:villager_plantable_seeds, minecraft:wolf_food
+[01:12:49] [Render thread/INFO]: [System] [CHAT]                                      
+[01:12:50] [Render thread/INFO]: Loaded 2 advancements
+[01:12:50] [Render thread/INFO]: [System] [CHAT]  
+[01:12:50] [Render thread/INFO]: [System] [CHAT] ⚠ Внимание! Чтобы избежать взлома, привяжите свой аккаунт к вк, чтобы получить инструкции напишите (!привязка) в сообщения нашей группы vk.me/luckywmc
+[01:12:50] [Render thread/INFO]: [System] [CHAT]  
+[01:12:50] [Render thread/INFO]: [System] [CHAT] Сессия активна. Удачной игры =)
+[01:12:50] [Render thread/INFO]: [System] [CHAT] Вы успешно вошли!
+[01:12:50] [Render thread/INFO]: Stopping worker threads
+[01:12:50] [Render thread/INFO]: Started 1 worker threads
+[01:12:54] [Render thread/WARN]: Ignoring player info update for unknown player 91b8a28d-ee0a-39b8-bbfe-9d7946f0a5bc
+[01:12:55] [Render thread/INFO]: [System] [CHAT] [✉] Вы находитесь в Лобби. Выберите сервер и пройдите в портал!
+[01:12:58] [Render thread/WARN]: Ignoring player info update for unknown player 61dd560b-c706-3089-a90a-4685a6f636c7
+[01:12:59] [Render thread/INFO]: [System] [CHAT] Сервер | Подключение к серверу bwlobby-5...
+[01:12:59] [Render thread/INFO]: Stopping worker threads
+[01:12:59] [Render thread/INFO]: Started 1 worker threads
+[01:13:00] [Render thread/INFO]: Stopping worker threads
+[01:13:00] [Render thread/INFO]: Started 1 worker threads
+[01:13:00] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:aquatic, minecraft:arthropod, minecraft:can_breathe_under_water, minecraft:ignores_poison_and_regen, minecraft:illager, minecraft:illager_friends, minecraft:inverted_healing_and_harm, minecraft:non_controlling_rider, minecraft:not_scary_for_pufferfish, minecraft:redirectable_projectile, minecraft:sensitive_to_bane_of_arthropods, minecraft:sensitive_to_impaling, minecraft:sensitive_to_smite, minecraft:undead, minecraft:wither_friends, minecraft:zombies
+[01:13:00] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:all_hanging_signs, minecraft:armadillo_spawnable_on, minecraft:badlands_terracotta, minecraft:bamboo_blocks, minecraft:camel_sand_step_sound_blocks, minecraft:carpets, minecraft:ceiling_hanging_signs, minecraft:cherry_logs, minecraft:combination_step_sound_blocks, minecraft:concrete_powder, minecraft:dirt_like, minecraft:does_not_block_hoppers, minecraft:enchantment_power_provider, minecraft:enchantment_power_transmitter, minecraft:incorrect_for_diamond_tool, minecraft:incorrect_for_gold_tool, minecraft:incorrect_for_iron_tool, minecraft:incorrect_for_netherite_tool, minecraft:incorrect_for_stone_tool, minecraft:incorrect_for_wooden_tool, minecraft:lava_pool_stone_replaceables, minecraft:maintains_farmland, minecraft:non_flammable_wood, minecraft:polar_bears_spawnable_on_in_frozen_ocean, minecraft:replaceable, minecraft:replaceable_by_trees, minecraft:sniffer_diggable_block, minecraft:sniffer_egg_hatch_boost, minecraft:stone_buttons, minecraft:sword_efficient, minecraft:trail_ruins_replaceable, minecraft:vibration_resonators, minecraft:wall_hanging_signs
+[01:13:00] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:armadillo_food, minecraft:axolotl_food, minecraft:bamboo_blocks, minecraft:bee_food, minecraft:bookshelf_books, minecraft:breaks_decorated_pots, minecraft:camel_food, minecraft:carpets, minecraft:cat_food, minecraft:cherry_logs, minecraft:chest_armor, minecraft:chicken_food, minecraft:cow_food, minecraft:decorated_pot_ingredients, minecraft:decorated_pot_sherds, minecraft:dyeable, minecraft:enchantable/armor, minecraft:enchantable/bow, minecraft:enchantable/chest_armor, minecraft:enchantable/crossbow, minecraft:enchantable/durability, minecraft:enchantable/equippable, minecraft:enchantable/fire_aspect, minecraft:enchantable/fishing, minecraft:enchantable/foot_armor, minecraft:enchantable/head_armor, minecraft:enchantable/leg_armor, minecraft:enchantable/mining, minecraft:enchantable/mining_loot, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/trident, minecraft:enchantable/vanishing, minecraft:enchantable/weapon, minecraft:foot_armor, minecraft:frog_food, minecraft:furnace_materials, minecraft:goat_food, minecraft:hanging_signs, minecraft:head_armor, minecraft:hoglin_food, minecraft:horse_food, minecraft:horse_tempt_items, minecraft:leg_armor, minecraft:llama_food, minecraft:llama_tempt_items, minecraft:meat, minecraft:noteblock_top_instruments, minecraft:occludes_vibration_signals, minecraft:ocelot_food, minecraft:overworld_natural_logs, minecraft:panda_food, minecraft:parrot_food, minecraft:parrot_poisonous_food, minecraft:pig_food, minecraft:rabbit_food, minecraft:sheep_food, minecraft:skulls, minecraft:sniffer_food, minecraft:stone_buttons, minecraft:strider_food, minecraft:strider_tempt_items, minecraft:trim_materials, minecraft:trim_templates, minecraft:trimmable_armor, minecraft:turtle_food, minecraft:villager_plantable_seeds, minecraft:wolf_food
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 6e438952-c915-3b90-b59b-8bb708a8f638
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 6877b435-eeaa-3bdd-9bd8-cb53e64622ee
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player af9f91de-e68c-38fb-a7cb-e93dfe04cc65
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 257f93f2-39ac-36a8-afa5-a23f893fb18d
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 1749eec1-2f73-33cf-80ed-2873af72a57b
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 2a96e530-53a6-3af7-bbb2-68fb4020f938
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 9cac28ed-9271-3d4c-a11d-317105e1b15b
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player c9aeb948-df13-33f3-8e04-a653cb78a19a
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 88a2ecbc-47c2-314a-93ef-25f8fb9942dc
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player ad9507fc-d3e2-3e97-836f-75ced6697d92
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player b40f7add-651a-3c66-885b-ac124231c887
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 6ab6ec9e-1723-3600-9fbf-25d199f73441
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player b1eb53ff-c28d-38f9-ae31-2b61d9711215
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 78d208ee-4ed5-31ac-80e0-e10a4a3cb971
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 7c8d4a34-c9f4-3d89-b706-929802063cbe
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player ae5a6c30-5465-305b-9d0c-4e6a40d55f00
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 4198242b-2dac-3b80-a04e-9bfc3fd5f400
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player eb2cf7d9-bfda-374d-88f9-43b3456e503c
+[01:13:00] [Render thread/WARN]: Ignoring player info update for unknown player 80b00aae-12ef-322b-b706-24731419a9cb
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-1: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-2: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-3: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-4: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-5: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-6: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-7: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-8: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-9: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-10: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-11: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-12: team action: REMOVE, player action: null
+[01:13:00] [Render thread/WARN]: Received packet for unknown team TAB-SB-TM-13: team action: REMOVE, player action: null
+[01:13:01] [Render thread/INFO]: Loaded 7 advancements
+[01:13:01] [Render thread/INFO]: [System] [CHAT] Danghov: а на шею родителейФ 
+[01:13:01] [Render thread/WARN]: Ignoring player info update for unknown player cd1f9824-5021-3985-be43-b8ab6f2338d6
+[01:13:01] [Render thread/WARN]: Ignoring player info update for unknown player cd1f9824-5021-3985-be43-b8ab6f2338d6
+[01:13:02] [Render thread/WARN]: Ignoring player info update for unknown player 26326adc-8c39-3f57-bff8-c32ab10a3aca
+[01:13:02] [Render thread/WARN]: Ignoring player info update for unknown player 26326adc-8c39-3f57-bff8-c32ab10a3aca
+[01:13:05] [Render thread/WARN]: Ignoring player info update for unknown player 87d64172-746f-32d1-9113-05b4f7e08e22
+[01:13:05] [Render thread/WARN]: Ignoring player info update for unknown player 87d64172-746f-32d1-9113-05b4f7e08e22
+[01:13:05] [Render thread/INFO]: [System] [CHAT] Сервер | Подключение к серверу bw-737...
+[01:13:05] [Render thread/INFO]: Stopping worker threads
+[01:13:05] [Render thread/INFO]: Started 1 worker threads
+[01:13:05] [Render thread/INFO]: Stopping worker threads
+[01:13:05] [Render thread/INFO]: Started 1 worker threads
+[01:13:06] [Render thread/WARN]: Ignoring player info update for unknown player 6e438952-c915-3b90-b59b-8bb708a8f638
+[01:13:06] [Render thread/INFO]: [System] [CHAT] BedWars » Lilobonchick1 зашёл в игру (10/16)
+[01:13:06] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:aquatic, minecraft:arthropod, minecraft:can_breathe_under_water, minecraft:ignores_poison_and_regen, minecraft:illager, minecraft:illager_friends, minecraft:inverted_healing_and_harm, minecraft:non_controlling_rider, minecraft:not_scary_for_pufferfish, minecraft:redirectable_projectile, minecraft:sensitive_to_bane_of_arthropods, minecraft:sensitive_to_impaling, minecraft:sensitive_to_smite, minecraft:undead, minecraft:wither_friends, minecraft:zombies
+[01:13:06] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:all_hanging_signs, minecraft:armadillo_spawnable_on, minecraft:badlands_terracotta, minecraft:bamboo_blocks, minecraft:camel_sand_step_sound_blocks, minecraft:carpets, minecraft:ceiling_hanging_signs, minecraft:cherry_logs, minecraft:combination_step_sound_blocks, minecraft:concrete_powder, minecraft:dirt_like, minecraft:does_not_block_hoppers, minecraft:enchantment_power_provider, minecraft:enchantment_power_transmitter, minecraft:incorrect_for_diamond_tool, minecraft:incorrect_for_gold_tool, minecraft:incorrect_for_iron_tool, minecraft:incorrect_for_netherite_tool, minecraft:incorrect_for_stone_tool, minecraft:incorrect_for_wooden_tool, minecraft:lava_pool_stone_replaceables, minecraft:maintains_farmland, minecraft:non_flammable_wood, minecraft:polar_bears_spawnable_on_in_frozen_ocean, minecraft:replaceable, minecraft:replaceable_by_trees, minecraft:sniffer_diggable_block, minecraft:sniffer_egg_hatch_boost, minecraft:stone_buttons, minecraft:sword_efficient, minecraft:trail_ruins_replaceable, minecraft:vibration_resonators, minecraft:wall_hanging_signs
+[01:13:06] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:armadillo_food, minecraft:axolotl_food, minecraft:bamboo_blocks, minecraft:bee_food, minecraft:bookshelf_books, minecraft:breaks_decorated_pots, minecraft:camel_food, minecraft:carpets, minecraft:cat_food, minecraft:cherry_logs, minecraft:chest_armor, minecraft:chicken_food, minecraft:cow_food, minecraft:decorated_pot_ingredients, minecraft:decorated_pot_sherds, minecraft:dyeable, minecraft:enchantable/armor, minecraft:enchantable/bow, minecraft:enchantable/chest_armor, minecraft:enchantable/crossbow, minecraft:enchantable/durability, minecraft:enchantable/equippable, minecraft:enchantable/fire_aspect, minecraft:enchantable/fishing, minecraft:enchantable/foot_armor, minecraft:enchantable/head_armor, minecraft:enchantable/leg_armor, minecraft:enchantable/mining, minecraft:enchantable/mining_loot, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/trident, minecraft:enchantable/vanishing, minecraft:enchantable/weapon, minecraft:foot_armor, minecraft:frog_food, minecraft:furnace_materials, minecraft:goat_food, minecraft:hanging_signs, minecraft:head_armor, minecraft:hoglin_food, minecraft:horse_food, minecraft:horse_tempt_items, minecraft:leg_armor, minecraft:llama_food, minecraft:llama_tempt_items, minecraft:meat, minecraft:noteblock_top_instruments, minecraft:occludes_vibration_signals, minecraft:ocelot_food, minecraft:overworld_natural_logs, minecraft:panda_food, minecraft:parrot_food, minecraft:parrot_poisonous_food, minecraft:pig_food, minecraft:rabbit_food, minecraft:sheep_food, minecraft:skulls, minecraft:sniffer_food, minecraft:stone_buttons, minecraft:strider_food, minecraft:strider_tempt_items, minecraft:trim_materials, minecraft:trim_templates, minecraft:trimmable_armor, minecraft:turtle_food, minecraft:villager_plantable_seeds, minecraft:wolf_food
+[01:13:06] [Render thread/INFO]: Loaded 38 advancements
+[01:13:06] [Render thread/WARN]: Ignoring player info update for unknown player 26326adc-8c39-3f57-bff8-c32ab10a3aca
+[01:13:06] [Render thread/WARN]: Ignoring player info update for unknown player 26326adc-8c39-3f57-bff8-c32ab10a3aca
+[01:13:06] [Render thread/INFO]: [System] [CHAT] BedWars » Vadimaster зашёл в игру (11/16)
+[01:13:06] [Render thread/WARN]: Ignoring player info update for unknown player c95b68de-78a1-3438-b8c4-8be21ff1a74f
+[01:13:06] [Render thread/WARN]: Ignoring player info update for unknown player c95b68de-78a1-3438-b8c4-8be21ff1a74f
+[01:13:06] [Render thread/INFO]: [System] [CHAT] BedWars » MilkCakeeKawaii зашёл в игру (12/16)
+[01:13:07] [Render thread/WARN]: Ignoring player info update for unknown player 368b6938-f9b2-3036-a7b0-31bf1c1937d3
+[01:13:07] [Render thread/WARN]: Ignoring player info update for unknown player 368b6938-f9b2-3036-a7b0-31bf1c1937d3
+[01:13:07] [Render thread/INFO]: [System] [CHAT] BedWars » solix зашёл в игру (13/16)
+[01:13:08] [Render thread/WARN]: Ignoring player info update for unknown player 44054ccb-e7c6-3e83-b7f1-7bd243b603a5
+[01:13:08] [Render thread/WARN]: Ignoring player info update for unknown player 44054ccb-e7c6-3e83-b7f1-7bd243b603a5
+[01:13:08] [Render thread/INFO]: [System] [CHAT] BedWars » selyavika_7 зашёл в игру (14/16)
+[01:13:10] [Render thread/INFO]: [System] [CHAT] [⚑] ultrapisunchik: СРАЛИ ДАЛЬШЕ ЧЕМ ВИДЕЛИ СРАЛИ ДАЛЬШЕ ЧЕМ ВИДЕЛИ СРАЛИ ДАЛЬШЕ ЧЕМ ВИДЕЛИ СРАЛИ ДАЛЬШЕ ЧЕМ ВИДЕЛИ СРАЛИ ДАЛЬШЕ ЧЕМ ВИДЕЛИ СРАЛИ ДАЛЬШЕ ЧЕМ ВИДЕЛИ СРАЛИ ДАЛЬШЕ ЧЕМ ВИДЕЛИ
+[01:13:11] [Render thread/INFO]: [System] [CHAT] BedWars » lexsed_67 покинул игру (13/16)
+[01:13:16] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 10 секунд!
+[01:13:21] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 5 секунд!
+[01:13:22] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 4 секунды!
+[01:13:23] [Render thread/INFO]: [System] [CHAT] BedWars » Вы присоединились к команде Зеленых
+[01:13:23] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 3 секунды!
+[01:13:24] [Render thread/INFO]: Loaded 41 advancements
+[01:13:24] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 2 секунды!
+[01:13:25] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 1 секунда!
+[01:13:27] [Render thread/INFO]: [System] [CHAT] BedWars » spdlnkv покинул игру (12/16)
+[01:13:27] [Render thread/INFO]: [System] [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[01:13:27] [Render thread/INFO]: [System] [CHAT]                                                                       
+[01:13:27] [Render thread/INFO]: [System] [CHAT]                            КРОВАТНЫЕ ВОЙНЫ                           
+[01:13:27] [Render thread/INFO]: [System] [CHAT]                                                                       
+[01:13:27] [Render thread/INFO]: [System] [CHAT]              Защити свою кровать и сломай чужие кровати.             
+[01:13:27] [Render thread/INFO]: [System] [CHAT]           Покупай предметы и улучшения для своей команды за          
+[01:13:27] [Render thread/INFO]: [System] [CHAT]     Железо, Золото, Алмазы и Изумруды, чтобы стать несокрушимыми!    
+[01:13:27] [Render thread/INFO]: [System] [CHAT]                Победит только одна, сильнейшая команда!               
+[01:13:27] [Render thread/INFO]: [System] [CHAT]                                                                       
+[01:13:27] [Render thread/INFO]: [System] [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[01:13:49] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:13:49] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:13:51] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:13:51] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:15:05] [Render thread/INFO]: Loaded 44 advancements
+[01:15:24] [Render thread/INFO]: [System] [CHAT] BedWars » ultrapisunchik выпал из мира, пока боролся с erihiiii!
+[01:15:30] [Render thread/INFO]: [System] [CHAT] BedWars » erihiiii выпал из мира!
+[01:15:32] [Render thread/INFO]: [System] [CHAT] BedWars » classicaldecat выпал из мира!
+[01:15:37] [Render thread/INFO]: [System] [CHAT] BedWars » lolac убил Lilobonchick1!
+[01:15:37] [Render thread/INFO]: [System] [CHAT] Вы возродитесь через 5 секунд!
+[01:15:38] [Render thread/INFO]: [System] [CHAT] Вы возродитесь через 4 секунды!
+[01:15:39] [Render thread/INFO]: [System] [CHAT] Вы возродитесь через 3 секунды!
+[01:15:40] [Render thread/INFO]: [System] [CHAT] Вы возродитесь через 2 секунды!
+[01:15:41] [Render thread/INFO]: [System] [CHAT] Вы возродитесь через 1 секунду!
+[01:16:03] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:16:03] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:16:03] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:16:04] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:16:04] [Render thread/INFO]: [System] [CHAT] BedWars » У Вас недостаточно ресурсов.
+[01:16:14] [Render thread/INFO]: [System] [CHAT] BedWars » Vadimaster погиб.
+[01:16:25] [Render thread/INFO]: [System] [CHAT] BedWars » sv1at разрушил кровать команды Зеленых
+[01:16:28] [Render thread/INFO]: [System] [CHAT] BedWars » ZOMBI_MONKEY убил ultrapisunchik!
+[01:16:43] [Render thread/INFO]: [System] [CHAT] BedWars » ultrapisunchik выпал из мира!
+[01:16:46] [Render thread/INFO]: [System] [CHAT] BedWars » Vadimaster погиб.
+[01:16:51] [Render thread/INFO]: [System] [CHAT] BedWars » Lilobonchick1 убил solix!
+[01:17:07] [Render thread/INFO]: [System] [CHAT] BedWars » classicaldecat выпал из мира!
+[01:17:25] [Render thread/INFO]: [System] [CHAT] BedWars » solix выпал из мира!
+[01:18:28] [Render thread/INFO]: [System] [CHAT] BedWars » Генераторы алмазов прокачаны до II уровня.
+[01:18:39] [Render thread/INFO]: [System] [CHAT] BedWars » ultrapisunchik убил ZOMBI_MONKEY!
+[01:19:07] [Render thread/INFO]: [System] [CHAT] BedWars » sv1at разрушил кровать команды Желтых
+[01:19:11] [Render thread/INFO]: [System] [CHAT] BedWars » solix разбился о землю, пока боролся с sv1at!
+[01:19:29] [Render thread/INFO]: [System] [CHAT] BedWars » sv1at убил Lilobonchick1!
+[01:19:29] [Render thread/INFO]: Loaded 47 advancements
+[01:19:39] [Render thread/INFO]: [System] [CHAT] BedWars » Подключаю к следующей игре...
+[01:19:39] [Render thread/INFO]: [System] [CHAT] Сервер | Подключение к серверу bw-681...
+[01:19:39] [Render thread/INFO]: Stopping worker threads
+[01:19:39] [Render thread/INFO]: Started 1 worker threads
+[01:19:39] [Render thread/INFO]: Stopping worker threads
+[01:19:39] [Render thread/INFO]: Started 1 worker threads
+[01:19:39] [Render thread/WARN]: Ignoring player info update for unknown player 6e438952-c915-3b90-b59b-8bb708a8f638
+[01:19:39] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: minecraft:aquatic, minecraft:arthropod, minecraft:can_breathe_under_water, minecraft:ignores_poison_and_regen, minecraft:illager, minecraft:illager_friends, minecraft:inverted_healing_and_harm, minecraft:non_controlling_rider, minecraft:not_scary_for_pufferfish, minecraft:redirectable_projectile, minecraft:sensitive_to_bane_of_arthropods, minecraft:sensitive_to_impaling, minecraft:sensitive_to_smite, minecraft:undead, minecraft:wither_friends, minecraft:zombies
+[01:19:39] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: minecraft:all_hanging_signs, minecraft:armadillo_spawnable_on, minecraft:badlands_terracotta, minecraft:bamboo_blocks, minecraft:camel_sand_step_sound_blocks, minecraft:carpets, minecraft:ceiling_hanging_signs, minecraft:cherry_logs, minecraft:combination_step_sound_blocks, minecraft:concrete_powder, minecraft:dirt_like, minecraft:does_not_block_hoppers, minecraft:enchantment_power_provider, minecraft:enchantment_power_transmitter, minecraft:incorrect_for_diamond_tool, minecraft:incorrect_for_gold_tool, minecraft:incorrect_for_iron_tool, minecraft:incorrect_for_netherite_tool, minecraft:incorrect_for_stone_tool, minecraft:incorrect_for_wooden_tool, minecraft:lava_pool_stone_replaceables, minecraft:maintains_farmland, minecraft:non_flammable_wood, minecraft:polar_bears_spawnable_on_in_frozen_ocean, minecraft:replaceable, minecraft:replaceable_by_trees, minecraft:sniffer_diggable_block, minecraft:sniffer_egg_hatch_boost, minecraft:stone_buttons, minecraft:sword_efficient, minecraft:trail_ruins_replaceable, minecraft:vibration_resonators, minecraft:wall_hanging_signs
+[01:19:39] [Render thread/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:armadillo_food, minecraft:axolotl_food, minecraft:bamboo_blocks, minecraft:bee_food, minecraft:bookshelf_books, minecraft:breaks_decorated_pots, minecraft:camel_food, minecraft:carpets, minecraft:cat_food, minecraft:cherry_logs, minecraft:chest_armor, minecraft:chicken_food, minecraft:cow_food, minecraft:decorated_pot_ingredients, minecraft:decorated_pot_sherds, minecraft:dyeable, minecraft:enchantable/armor, minecraft:enchantable/bow, minecraft:enchantable/chest_armor, minecraft:enchantable/crossbow, minecraft:enchantable/durability, minecraft:enchantable/equippable, minecraft:enchantable/fire_aspect, minecraft:enchantable/fishing, minecraft:enchantable/foot_armor, minecraft:enchantable/head_armor, minecraft:enchantable/leg_armor, minecraft:enchantable/mining, minecraft:enchantable/mining_loot, minecraft:enchantable/sharp_weapon, minecraft:enchantable/sword, minecraft:enchantable/trident, minecraft:enchantable/vanishing, minecraft:enchantable/weapon, minecraft:foot_armor, minecraft:frog_food, minecraft:furnace_materials, minecraft:goat_food, minecraft:hanging_signs, minecraft:head_armor, minecraft:hoglin_food, minecraft:horse_food, minecraft:horse_tempt_items, minecraft:leg_armor, minecraft:llama_food, minecraft:llama_tempt_items, minecraft:meat, minecraft:noteblock_top_instruments, minecraft:occludes_vibration_signals, minecraft:ocelot_food, minecraft:overworld_natural_logs, minecraft:panda_food, minecraft:parrot_food, minecraft:parrot_poisonous_food, minecraft:pig_food, minecraft:rabbit_food, minecraft:sheep_food, minecraft:skulls, minecraft:sniffer_food, minecraft:stone_buttons, minecraft:strider_food, minecraft:strider_tempt_items, minecraft:trim_materials, minecraft:trim_templates, minecraft:trimmable_armor, minecraft:turtle_food, minecraft:villager_plantable_seeds, minecraft:wolf_food
+[01:19:40] [Render thread/INFO]: [System] [CHAT] BedWars » Lilobonchick1 зашёл в игру (16/24)
+[01:19:40] [Render thread/INFO]: Loaded 38 advancements
+[01:19:40] [Render thread/INFO]: [System] [CHAT] BedWars » crispyhh покинул игру (15/24)
+[01:19:40] [Render thread/WARN]: Ignoring player info update for unknown player 24fea9be-c013-3623-82d8-3e898175d26c
+[01:19:40] [Render thread/WARN]: Ignoring player info update for unknown player 24fea9be-c013-3623-82d8-3e898175d26c
+[01:19:40] [Render thread/INFO]: [System] [CHAT] BedWars » ZIPPOR2007 зашёл в игру (16/24)
+[01:19:46] [Render thread/WARN]: Ignoring player info update for unknown player d1191ace-6786-39f9-88c3-fa4e0b10975d
+[01:19:46] [Render thread/WARN]: Ignoring player info update for unknown player d1191ace-6786-39f9-88c3-fa4e0b10975d
+[01:19:46] [Render thread/INFO]: [System] [CHAT] BedWars » AshOT_KAmSHoT зашёл в игру (17/24)
+[01:19:48] [Render thread/INFO]: [System] [CHAT] BedWars » Franc_MSK покинул игру (16/24)
+[01:19:53] [Render thread/WARN]: Ignoring player info update for unknown player 51900dee-1c1c-38f5-aab9-8ec58961ed43
+[01:19:53] [Render thread/WARN]: Ignoring player info update for unknown player 51900dee-1c1c-38f5-aab9-8ec58961ed43
+[01:19:53] [Render thread/INFO]: [System] [CHAT] BedWars » crispyhh зашёл в игру (17/24)
+[01:19:55] [Render thread/WARN]: Ignoring player info update for unknown player 2597b587-db0e-35f3-ba40-27e7d63e4bad
+[01:19:55] [Render thread/WARN]: Ignoring player info update for unknown player 2597b587-db0e-35f3-ba40-27e7d63e4bad
+[01:19:55] [Render thread/INFO]: [System] [CHAT] BedWars » _YanLauncher_ зашёл в игру (18/24)
+[01:19:55] [Render thread/INFO]: [System] [CHAT] BedWars » crispyhh покинул игру (17/24)
+[01:19:58] [Render thread/WARN]: Ignoring player info update for unknown player 7912c1f7-d2d7-3391-9970-f28d517f69aa
+[01:19:58] [Render thread/WARN]: Ignoring player info update for unknown player 7912c1f7-d2d7-3391-9970-f28d517f69aa
+[01:19:58] [Render thread/INFO]: [System] [CHAT] BedWars » TTyCToE_MeCTo зашёл в игру (18/24)
+[01:19:58] [Render thread/WARN]: Ignoring player info update for unknown player cadd0020-616c-3c5a-9e71-15c55918bc5c
+[01:19:58] [Render thread/WARN]: Ignoring player info update for unknown player cadd0020-616c-3c5a-9e71-15c55918bc5c
+[01:19:58] [Render thread/INFO]: [System] [CHAT] BedWars » CODEinHEART зашёл в игру (19/24)
+[01:20:00] [Render thread/WARN]: Ignoring player info update for unknown player 9c25df85-5471-3f8e-9cb2-2754ed9b1d75
+[01:20:00] [Render thread/WARN]: Ignoring player info update for unknown player 9c25df85-5471-3f8e-9cb2-2754ed9b1d75
+[01:20:00] [Render thread/INFO]: [System] [CHAT] BedWars » BLODIMUR зашёл в игру (20/24)
+[01:20:03] [Render thread/WARN]: Ignoring player info update for unknown player 9a475027-51da-309f-be4c-0a1c75ec3be9
+[01:20:03] [Render thread/WARN]: Ignoring player info update for unknown player 9a475027-51da-309f-be4c-0a1c75ec3be9
+[01:20:03] [Render thread/INFO]: [System] [CHAT] BedWars » VizorCheburek28 зашёл в игру (21/24)
+[01:20:04] [Render thread/WARN]: Ignoring player info update for unknown player 13cb4531-e66b-3e3a-8107-b62dc96e4eca
+[01:20:04] [Render thread/WARN]: Ignoring player info update for unknown player 13cb4531-e66b-3e3a-8107-b62dc96e4eca
+[01:20:04] [Render thread/INFO]: [System] [CHAT] BedWars » ashotleym зашёл в игру (22/24)
+[01:20:06] [Render thread/WARN]: Ignoring player info update for unknown player bc59b097-a86f-3e1f-98f0-6f3c996ea1a7
+[01:20:06] [Render thread/WARN]: Ignoring player info update for unknown player bc59b097-a86f-3e1f-98f0-6f3c996ea1a7
+[01:20:06] [Render thread/INFO]: [System] [CHAT] BedWars » Golmester зашёл в игру (23/24)
+[01:20:07] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 10 секунд!
+[01:20:08] [Render thread/WARN]: Ignoring player info update for unknown player 95b424a1-36f1-305a-b300-796c3203dd0c
+[01:20:08] [Render thread/WARN]: Ignoring player info update for unknown player 95b424a1-36f1-305a-b300-796c3203dd0c
+[01:20:08] [Render thread/INFO]: [System] [CHAT] BedWars » Anya2011 зашёл в игру (24/24)
+[01:20:08] [Render thread/INFO]: [System] [CHAT] BedWars » BLODIMUR покинул игру (23/24)
+[01:20:09] [Render thread/WARN]: Ignoring player info update for unknown player 82bb85ff-73c5-3f60-b93a-18c54c024e9a
+[01:20:10] [Render thread/WARN]: Ignoring player info update for unknown player 82bb85ff-73c5-3f60-b93a-18c54c024e9a
+[01:20:10] [Render thread/INFO]: [System] [CHAT] BedWars » DJ_Dolboeb зашёл в игру (24/24)
+[01:20:11] [Render thread/INFO]: [System] [CHAT] BedWars » Anya2011 покинул игру (23/24)
+[01:20:12] [Render thread/WARN]: Ignoring player info update for unknown player a24c2d9a-26cd-37ca-b261-403d777153d9
+[01:20:12] [Render thread/WARN]: Ignoring player info update for unknown player a24c2d9a-26cd-37ca-b261-403d777153d9
+[01:20:12] [Render thread/INFO]: [System] [CHAT] BedWars » podsosteoretik зашёл в игру (24/24)
+[01:20:12] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 5 секунд!
+[01:20:13] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 4 секунды!
+[01:20:14] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 3 секунды!
+[01:20:15] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 2 секунды!
+[01:20:16] [Render thread/INFO]: [System] [CHAT] BedWars » До начала игры осталось 1 секунда!
+[01:20:18] [Render thread/INFO]: [System] [CHAT] BedWars » Вы присоединились к команде Зеленых
+[01:20:18] [Render thread/INFO]: [System] [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[01:20:18] [Render thread/INFO]: [System] [CHAT]                                                                       
+[01:20:18] [Render thread/INFO]: [System] [CHAT]                            КРОВАТНЫЕ ВОЙНЫ                           
+[01:20:18] [Render thread/INFO]: [System] [CHAT]                                                                       
+[01:20:18] [Render thread/INFO]: [System] [CHAT]              Защити свою кровать и сломай чужие кровати.             
+[01:20:18] [Render thread/INFO]: [System] [CHAT]           Покупай предметы и улучшения для своей команды за          
+[01:20:18] [Render thread/INFO]: [System] [CHAT]     Железо, Золото, Алмазы и Изумруды, чтобы стать несокрушимыми!    
+[01:20:18] [Render thread/INFO]: [System] [CHAT]                Победит только одна, сильнейшая команда!               
+[01:20:18] [Render thread/INFO]: [System] [CHAT]                                                                       
+[01:20:18] [Render thread/INFO]: [System] [CHAT] ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+[01:20:22] [Render thread/INFO]: [System] [CHAT] BedWars » Вы не можете разрушить кровать своей команды.
+[01:20:43] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:20:43] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:20:43] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:20:44] [Render thread/INFO]: [System] [CHAT] BedWars » Вы купили предмет за 25 Ресурсов.
+[01:20:44] [Render thread/INFO]: [System] [CHAT] BedWars » У Вас недостаточно ресурсов.
+[01:20:44] [Render thread/INFO]: Loaded 41 advancements
+[01:20:58] [Render thread/INFO]: [System] [CHAT] BedWars » skv0zi погиб.
+[01:21:05] [Render thread/INFO]: [System] [CHAT] BedWars » podsosteoretik убил YYgiyyyt!
+[01:21:08] [Render thread/INFO]: [System] [CHAT] BedWars » Agugaga убил podsosteoretik!
+[01:21:11] [Render thread/INFO]: [System] [CHAT] BedWars » Agugaga убил AshOT_KAmSHoT!
+[01:21:23] [Render thread/INFO]: [System] [CHAT] BedWars » Agugaga разбился о землю, пока боролся с podsosteoretik!
+[01:21:26] [Render thread/INFO]: [System] [CHAT] BedWars » Mr_Kaktyc убил podsosteoretik!
+[01:21:27] [Render thread/INFO]: [System] [CHAT] BedWars » skv0zi погиб.
+[01:21:34] [Render thread/INFO]: [System] [CHAT] BedWars » AshOT_KAmSHoT убил Mr_Kaktyc!
+[01:21:35] [Render thread/INFO]: [System] [CHAT] BedWars » _YanLauncher_ погиб.
+[01:21:44] [Render thread/INFO]: [System] [CHAT] BedWars » AshOT_KAmSHoT убил Agugaga!
+[01:21:45] [Render thread/INFO]: [System] [CHAT] BedWars » AshOT_KAmSHoT погиб.
+[01:22:00] [Render thread/INFO]: [System] [CHAT] BedWars » TTyCToE_MeCTo разрушил кровать команды Зеленых
+[01:22:03] [Render thread/INFO]: [System] [CHAT] BedWars » podsosteoretik убил Harry!
+[01:22:11] [Render thread/INFO]: [System] [CHAT] BedWars » skv0zi погиб.
+[01:22:11] [Render thread/INFO]: [System] [CHAT] BedWars » _YanLauncher_ погиб.
+[01:22:14] [Render thread/INFO]: [System] [CHAT] BedWars » Mr_Kaktyc выпал из мира!
+[01:22:24] [Render thread/INFO]: [System] [CHAT] BedWars » ashotleym выпал из мира, пока боролся с Agugaga!
+[01:22:28] [Render thread/INFO]: [System] [CHAT] BedWars » vvpminecraft выпал из мира, пока боролся с Quackity!
+[01:22:39] [Render thread/INFO]: Stopping worker threads
+[01:22:41] [Realms Notification Availability checker #1/ERROR]: Realms http code: 400 - raw body (message failed to parse): 
+[01:26:46] [Render thread/INFO]: Stopping!
